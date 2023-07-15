@@ -3,11 +3,9 @@ package com.example.kmtest.ui.third
 import androidx.lifecycle.*
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.example.kmtest.database.User
 import com.example.kmtest.model.network.DataItem
 import com.example.kmtest.repository.UserRepository
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
