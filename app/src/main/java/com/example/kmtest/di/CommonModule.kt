@@ -1,6 +1,8 @@
 package com.example.kmtest.di
 
 import com.example.kmtest.repository.UserRepository
+import com.example.kmtest.ui.second.SecondViewModel
+import com.example.kmtest.ui.third.ThirdViewModel
 import org.koin.dsl.module
 
 val repositoryModule = module {
@@ -8,5 +10,6 @@ val repositoryModule = module {
 }
 
 val viewModule = module {
-    single {}
+    single {ThirdViewModel(get())}
+    single {SecondViewModel()}
 }

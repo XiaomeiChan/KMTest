@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">KMTest</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="check">Check</string>
+    <string name="tv_second">Second Screen</string>
+    <string name="name">John Doe</string>
+    <string name="tv_welcome">Welcome</string>
+    <string name="tv_choose">Choose a User</string>
+    <string name="third">Third Screen</string>
+    <string name="email">Email</string>
+    <string name="fullname">Fullname</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="tv_selected">Selected User Name</string>
 </resources>

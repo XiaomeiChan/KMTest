@@ -26,19 +26,19 @@ data class UserResponse(
 data class DataItem(
 
 	@field:SerializedName("last_name")
-	val lastName: String? = null,
+	val lastName: String,
 
 	@field:SerializedName("id")
-	val id: Int? = null,
+	val id: Int,
 
 	@field:SerializedName("avatar")
-	val avatar: String? = null,
+	val avatar: String,
 
 	@field:SerializedName("first_name")
-	val firstName: String? = null,
+	val firstName: String,
 
 	@field:SerializedName("email")
-	val email: String? = null
+	val email: String,
 )
 
 data class Support(
